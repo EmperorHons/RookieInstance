@@ -1,20 +1,18 @@
-# -*- coding: utf-8 -*-
-
+# -*- coding:utf-8 -*-
+"""
+https://www.runoob.com/python3/python3-quadratic-roots.html Python 二次方程
+"""
 
 import cmath
 
-# 正数的平方根
-num = int(input("请输入一个数字： "))
+a = float(input("请输入a: "))
+b = float(input("请输入b: "))
+c = float(input("请输入c: "))
 
-num_sqrt = num ** 0.5
+d = b ** 2 - 4 * a * c
 
-print("{0}的平方根为{1:0.3f}".format(num, num_sqrt))
+sol1 = (-b-cmath.sqrt(d)) / (2 * a)
+sol2 = (-b+cmath.sqrt(d)) / (2 * a)
 
 
-# 负数/复数的平方根
-num = int(input("请输入一个数字： "))
-
-num_sqrt = cmath.sqrt(num)
-
-print("{0}的平方根为{1:0.3f} + {2:0.3f}j".format(num, num_sqrt.real, num_sqrt.imag))
-
+print('结果为 {0} 和 {1}'.format(sol1, sol2))

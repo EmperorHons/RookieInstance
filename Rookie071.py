@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+"""
+https://www.runoob.com/python3/python-bubble-sort.html  Python 冒泡排序
+"""
 
 l = [76543, 12345, 6543, 123, 91837, 2134, 32, 21, 43, 11, 84, 55]
 s = len(l)

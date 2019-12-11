@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
-
-
+"""
+https://www.runoob.com/python3/python3-check-is-number.html  Python 判断字符串是否为数字
+"""
 def is_number(s):
     try:
         float(s)

@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
-
+"""
+https://www.runoob.com/python3/python3-celsius-fahrenheit.html  Python 摄氏温度转华氏温度
+"""
 
 # 输入摄氏温度
 celsius = float(input('输入摄氏温度： '))

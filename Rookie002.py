@@ -2,7 +2,6 @@
 """
 https://www.runoob.com/python3/python3-add-number.html Python 数字求和
 """
-
 num1 = input("请输入第一个数字： ")
 num2 = input("请输入第二个数字： ")
 

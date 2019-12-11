@@ -2,7 +2,6 @@
 """
 https://www.runoob.com/python3/python3-area-triangle.html  Python 计算三角形的面积
 """
-
 # 海伦公式计算三角形的面积
 a = float(input('输入三角形第一边长： '))
 b = float(input('输入三角形第二边长： '))

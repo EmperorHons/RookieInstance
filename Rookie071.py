@@ -16,3 +16,5 @@ def Sort():
                 l[y], l[y + 1] = l[y + 1], l[y]
     print(l)
     return l
+
+Sort()

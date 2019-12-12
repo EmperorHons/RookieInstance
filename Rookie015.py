@@ -26,4 +26,5 @@ def Prime_Number():
     else:
         print(num, "不是质数")
 
+
 Prime_Number()

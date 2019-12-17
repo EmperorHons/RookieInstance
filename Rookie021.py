@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-
+"""
+https://www.runoob.com/python3/python3-conversion-binary-octal-hexadecimal.html  Python 十进制转二进制、八进制、十六进制
+"""
 
 dec = int(input("输入数字: "))
 

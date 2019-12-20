@@ -17,7 +17,7 @@ def hcf(x, y):
         smaller = x
 
     for i in range(1, smaller + 1):
-        if (x % i == 0) and (y % i ==0):
+        if x % i == 0 and y % i == 0:  # 取余=0
             hcf = i
 
     return hcf

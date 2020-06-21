@@ -9,8 +9,6 @@ https://www.runoob.com/python3/python-cube-sum.html
 Python 计算 n 个自然数的立方和
 计算公式 13 + 23 + 33 + 43 + …….+ n3
 """
-
-
 import pysnooper
 
 

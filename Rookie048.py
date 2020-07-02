@@ -21,5 +21,4 @@ def List_Product(List):
 
 if __name__ == '__main__':
     List = [1, 5, 2, 44, 13, 26, 39, 57, 82]
-    print(List)
     print(List_Product(List))

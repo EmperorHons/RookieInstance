@@ -16,7 +16,7 @@ import pysnooper
 @pysnooper.snoop()
 def max_Number(List):
     return max(List)
-五十
+
 
 if __name__ == '__main__':
     List = [1, 5, 2, 44, 13, 26, 57, 82]

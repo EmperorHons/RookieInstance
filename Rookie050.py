@@ -19,5 +19,5 @@ def max_Number(List):
 
 
 if __name__ == '__main__':
-    List = [1, 5, 2, 44, 13, 26, 57, 82]
+    List = [1, 5, 2, 44, 82,13, 26, 57]
     print(max_Number(List))

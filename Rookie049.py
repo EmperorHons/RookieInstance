@@ -19,5 +19,5 @@ def min_Number(List):
 
 
 if __name__ == '__main__':
-    List = [1, 5, 2, 44, 13, 26, 39, 57, 82]
+    List = [1, 5, 2, 44, 13, 26, 57, 82]
     print(min_Number(List))

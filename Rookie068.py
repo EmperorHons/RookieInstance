@@ -13,7 +13,6 @@ Python 选择排序
 """
 
 import pysnooper
-import sys
 
 
 @pysnooper.snoop()

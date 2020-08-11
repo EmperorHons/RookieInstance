@@ -34,7 +34,6 @@ def partition(arr, low, high):
 
     arr[i+1], arr[high] = arr[high], arr[i+1]
     return i+1
-
 # arr[] --> 排序数组
 # low  --> 起始索引
 # high  --> 结束索引

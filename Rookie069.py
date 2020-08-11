@@ -35,4 +35,3 @@ def Select_sort(List):
 if __name__ == '__main__':
     List = [64, 25, 12, 22, 11]
     Select_sort(List)
-
